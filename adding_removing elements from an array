@@ -1,0 +1,18 @@
+//array tutorial
+let books=['lord of the rings','little women','the red queen']
+
+// add at the beginning 
+books.unshift('the hobbit')
+console.log(books)
+
+//add at the end
+books.push('silmarillion')
+console.log(books)
+
+//delete an elemnet at the beginning
+books.shift()
+console.log(books)
+
+//delete at the end 
+books.pop()
+console.log(books)
